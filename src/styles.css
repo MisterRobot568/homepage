@@ -1,3 +1,196 @@
-body {
-    background-color: purple;
+/* css Meyer reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* css reset end */
+
+/* body {
+    background-color: purple;
+} */
+/* header stuff */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+}
+.profile-pic {
+    max-width: 25rem;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.about-me-container {
+    /* width: 60%; */
+    height: 35%;
+    max-height: 200px;
+    max-width: 300px;
+    width: auto;
+    /* height: auto; */
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media-link {
+    width: 2rem;
+    height: auto;
+}
+
+/* main stuff  */
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 4rem;
+    margin: 0 auto;
+
+    margin-bottom: 4rem;
+    align-items: stretch;
+    /* display: flex; */
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 10rem;
+
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+.project-img {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* footer stuff */
